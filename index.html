@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Sophie Mispelter" />
+  <!-- balise meta pour que le site soit responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio-SophieMispelter-Mai2022</title>
+  <!-- lien bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Montserrat:wght@100;300;400;500;700;900&family=Sacramento&display=swap"
+    rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <!-- lien vers le fichier css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload= "isLoaded()" onresize="isLoaded()">
+
+  <div class="introAnim">
+    <div class="containerAnim">
+      <div class="input-text">
+        <p class="message">Sophie Mispelter, junior web developer&nbsp;<span></span>
+        </p>
+      </div>
+      <div class="btn-parent">
+        <button type="button" class="btn btn-secondary btn-lg btn-intro" onclick="toggleMenu()" >Enter</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="hiddenbody" >
+
+    <header id="about">
+      <nav id="main-menu">
+        <figure>
+          <img id="pict" src="images/sophie-circle.png" alt="sophie-profile-picture" title="Happy to see you here!">
+        </figure>
+        <ul>
+          <li><a class="lien-menu" href="#about">About</a></li>
+          <li><a class="lien-menu" href="#skills&tools">Skills</a></li>
+          <li><a class="lien-menu" href="#work">Work</a></li>
+          <li><a class="lien-menu" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="hamburger-menu">
+        <h4>Menu</h4>
+        <nav id="sidebar-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills&tools">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </button>
+    </header>
+    <main>
+      
+        <!-- SECTION 1 -->
+        <section class="section-1" id="about">
+
+          <div class="div-profil">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h1 id="card-title">I'm Sophie</h1><br>
+                    <h2 class="h2-profil">a junior <span class="pro">pro</span>grammer</h2>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Welcome on my portfolio</h1>
+                  <p>I hope you'll have a good experience visiting my webpage</p>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+          <div class="div-presentation">
+              <div class="intro">
+              <p>I have just completed an intensive training into programming which I enjoyed very much. I am a professional who has the experience of interacting with a wide range of people, I
+                understand the importance of flexibility and organisation. I have the ability to adapt to a changing
+                environment.<br><br> I like to learn, share, discover. I'm the happiest when I understand how ecosystems work in order to improve them. <br>I am an active reader, I often walk the places of art, I am interested in the media, I'm a Chess player, I travel by bike as much as I can. <br><br> I can't wait to meet you! </p>
+              </div>
+          </div>
+
+        </section>
+
+        <!-- SECTION 2 -->
+        <h2 class="title-s2" id="skills&tools">Skills</h2>
+        <section class="section-2">
+          <div class="div-intro-s2">
+            <span class="span-s2">
+              <p id="p-s2">You will find below the technologies I've learnt during my training at the WebForce3 developer school.<br> It's a great toolbox I'm using with much happiness to continue to hone my skills.</p>
+            </span>
+          </div>
+
+          <div class="icon-container">
+              <div class="div-box1">
+                  <div class="icon-box">
+                    <i class="fab fa-html5 fa-4x"></i>
+                    <p>HTML5</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fab fa-css3 fa-4x"></i>
+                    <p>CSS3</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fab fa-js fa-4x"></i>
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa-brands fa-bootstrap fa-4x"></i>
+                    <p>Bootstrap</p>
+                  </div>
+              </div> 
+
+              <div class="div-box2">
+                  <div class="icon-box">
+                    <i class="fab fa-php fa-4x"></i>
+                    <p>PHP</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="devicon-mysql-plain"></i>
+                    <p>MySQL</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fab fa-symfony fa-4x"></i>
+                    <p>Symfony</p>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fab fa-github fa-4x"></i>
+                    <p> Git & Github</p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+
+      <!-- SECTION 3 -->
+      <h2 class="title-s3" id="work">Work (in progress!)</h2>
+
+      <section class="section-3">
+
+        <div class="intro-s3">
+          <span class="span-s3">
+            <p class="p-s3">My aim now is to join a forward-thinking company. I'll be ready to tackle any challenges that await me!</p>
+          </span>
+        </div>   
+        <div class="div-h3-s3">
+          <h3 class="h3-s3">Below is a little demo of what I've worked on this past three months.</h3>
+        </div>
+
+        <div class="container-fluid">
+
+          <!-- First row -->
+          <div class="row d-md-flex flex-md-column d-xl-flex flex-xl-row">
+            <div class="col-md-12 col-xl-6"> 
+              <div class="row d-flex flex-column d-sm-flex flex-sm-row ">
+                <div class="col-12 col-sm-6">
+                  <div class="card px-3 py-3 my-3 mx-auto " style="width: 18rem;">
+                    <img src="./images/Reproduction_PageWebS_S.Mispelter2022-01-22 .png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projet 1</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-secondary">Aller sur le site</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card px-3 py-3 my-3 mx-auto" style="width: 18rem;">
+                    <img src="./images/Reproduction_PageWebS_S.Mispelter2022-01-22 .png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projet 1</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-secondary">Aller sur le site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-xl-6">   
+              <div class="row d-flex flex-column d-sm-flex flex-sm-row ">
+                <div class="col-12 col-sm-6">
+                  <div class="card px-3 py-3 my-3 mx-auto " style="width: 18rem;">
+                    <img src="./images/Reproduction_PageWebS_S.Mispelter2022-01-22 .png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projet 1</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-secondary">Aller sur le site</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card px-3 py-3 my-3 mx-auto" style="width: 18rem;">
+                    <img src="./images/Reproduction_PageWebS_S.Mispelter2022-01-22 .png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projet 1</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-secondary">Aller sur le site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="div-cv-s3">
+          <h3 class="h3-p">I'm happy to share with you my CV for more details.</h3>
+              <div class="row pt-3 pb-3">
+                  <div class="col d-flex justify-content-center">
+                    <button type="button" class="btnColor btn btn-outline-secondary btn-lg "><a id="lien-cv"
+                      href="./images/Sophie_Mispelter_DeveloppeuseWebJunior_CV.pdf" target="_blank">CV (French
+                      version)</a></button>
+                  </div>  
+              </div>  
+        </div>
+
+      </section>
+
+      <h2 class="title-s3" id="contact">Get in touch</h2>  
+      <section class="section-4" >
+
+        <span class="span-s4">
+          <p class="p-s4">I'm open to professional opportunities and I'd be delighted to hear from you.</p>
+          <h4>Your point of view matters to me.</h4>
+          <p class="p2-s4">Feel free to reach out for any feedback on this first web page I've
+            made, I'd gladly take them into account for future improvments.</p>
+        </span>
+
+        <div class="container-1-s4">
+          <div class="contactCard">
+            <div class="container_info">
+                <div class="sub_container_info">
+                    <span>Email : <a class="lien-site-card" href="mailto:asmispelter@yahoo.fr">asmispelter@yahoo.fr</a></span>
+                    <span>LinkedIn : <a class="lien-site-card" href="https://www.linkedin.com/in/sophiemispelter/" target="_blank"><i class="fa-brands fa-linkedin fa-xl color_icon2"></i></a></span>
+                    <span>Téléphone : <a class="lien-site-card" href="tel:+33648807453">+33648807453</a></span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </section>  
+      
+      
+      <div class="s4-resources">
+        <h4 class="resource-title" id="resources">I do not yet have testimonials, but I'd like to make a few for talented
+          people who taught me and inspired me.
+        </h4><br>
+        <p class="p-resource">Special thanks to my teachers at the WebForce3 school, your experience, teaching and positive minds are progressively helping me living the dream!</p><br>
+        <p class="p-resource">Thank you to the founders and contributors of great dev websites, it's gold and it makes this profession a great solidarity place where every one of us can mature at their own pace.
+        I'm discovering and loving many great resources such as:
+          <a class="lien-site-dev" href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a> ,
+          <a class="lien-site-dev" href="https://css-tricks.com" target="_blank">CSS tricks</a> ,
+          <a class="lien-site-dev" href="https://www.w3schools.com" target="_blank">W3S</a>(...)
+        </p><br>
+        <p class="p-resource">Thanks to Annie Bombanie, Oluwakemi Adeleke, Max Böck for their beautiful portfolios from which I found inspiration and thinking materials.</p>    
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Mai 2022 - Coded in HTML/CSS/Bootstrap/JS with <i class="fas fa-heart fa-1x"></i> by Sophie Mispelter</p>
+    </footer>
+
+  </div>  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="js/animation.js"></script>
+
+</body>
+
+</html>
