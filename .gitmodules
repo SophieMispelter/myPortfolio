@@ -1,3 +1,6 @@
 [submodule "Demo_Plateforme_E-boutique"]
 	path = Demo_Plateforme_E-boutique
 	url = https://github.com/SophieMispelter/Demo_Plateforme_E-boutique.git
+[submodule "Gestion_de_tournois_de_jeux"]
+	path = Gestion_de_tournois_de_jeux
+	url = https://github.com/SophieMispelter/Gestion_de_tournois_de_jeux.git
